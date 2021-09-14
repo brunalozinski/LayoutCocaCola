@@ -10,9 +10,7 @@ body {
     height: 100vh;
     flex-direction: column;
     padding: 50px 100px 50px 100px;
-    background: linear-gradient(180deg, rgba(207, 36, 37, 1) 0%, rgb(219, 103, 105) 
-53%, rgba(207, 36, 37, 1) 100%);
-
+    background: linear-gradient(180deg, rgba(207, 36, 37, 1) 0%, rgb(219, 103, 105) 53%, rgba(207, 36, 37, 1) 100%);
 }
 
 header {
@@ -53,22 +51,23 @@ h1 {
     font-size: 2.5rem;
     position: absolute;
     color: white;
-    padding-right: 450px;
+    padding-right: 500px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    text-align: right;
+    margin-right: 20px;
 }
 
 @media (max-width: 1326px) {
-
     body {
         padding-top: 30px;
         padding-right: 30px;
         padding-left: 30px;
         padding-bottom: 20px;
     }
-    
     header p {
         font-size: 1rem;
     }
-    
     main {
         align-items: center;
         justify-content: center;
@@ -114,16 +113,14 @@ footer p {
     font-size: 1rem;
     color: white;
     font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-line-height: 14px;
-letter-spacing: 0em;
-text-align: right;
-
-position: absolute;
-width: 45px;
-height: 14px;
-left: 1745px;
-top: 883px;
-
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: right;
+    position: absolute;
+    width: 45px;
+    height: 14px;
+    left: 1745px;
+    top: 893px;
 }
